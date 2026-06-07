@@ -4,24 +4,37 @@ Hermes Agent 日记管理技能（通用版）。
 
 随手记碎片，自动提炼、记账、同步多主线 tracker。支持：
 - 每日日记写入 + 智能提取（TODO/灵感/行业观察）
-- 多主线 tracker 同步（花销/学习/生活/文化/待办）
+- 多主线 tracker 同步（花销/学习/生活/文化/亲密关系/待办）
+- Tracker 交叉检查（写完日记自动扫描是否需要更新已有 tracker 条目）
 - 每日自动提炼 cron（像朋友写的一段话，不是流水账）
 - 周/月总结
 - 月度成长剖析（乔哈里视窗双视角互评）
-- 面试记录处理
+- 语音转文字/通话记录处理（面试、咨询等）
 - 每日记账（只记用户明确说的花销）
+- 饮食卡路里估算
+- 健康数据集成（小米运动健康）
 
 ## 文件说明
 
 ```
 diary-manager/
 ├── SKILL.md                              # 主技能文档（通用版，所有个人数据通过 {{占位符}} 隔离）
+├── config.local.example.md               # 个人配置模板（复制为 config.local.md 使用）
 ├── references/
+│   ├── tracker-conventions.md            # Tracker 文件结构与约定
 │   └── vision-model-pricing-research.md  # 视觉模型价格对比参考
 └── templates/
     ├── daily-entry.md                    # 每日日记模板
     └── growth-profile.md                 # 月度成长剖析模板（乔哈里视窗）
 ```
+
+## v3.2 更新（2026-06-07）
+
+- 新增 relationship.md（亲密关系追踪）tracker 类型
+- 提取流程新增 Tracker 交叉检查步骤（强制执行，防止日记写了但 tracker 漏更新）
+- 新增 tracker 写入后管道符格式验证规则
+- 修复文档结构问题（"不提取的内容"标题修正）
+- 新增 references/tracker-conventions.md 和 config.local.example.md
 
 ## 需要配置
 
