@@ -1,4 +1,0 @@
-interface:
-  display_name: "云青漫画"
-  short_description: "用小云朵和小瓶子把中文文章观点画成温暖手绘漫画配图"
-  default_prompt: "Use $yunqing-comics to turn this Chinese article section into a Yunqing cloud-and-bottle hand-drawn illustration."
