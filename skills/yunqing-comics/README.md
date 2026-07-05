@@ -50,8 +50,8 @@ Use $yunqing-comics to turn this Chinese article section into a Yunqing cloud-an
 
 ## 致谢
 
-云青漫画 Skill 最早受到小黑 skills 的启发。小黑 skills 让我意识到，一个好 Skill 不只是把 prompt 写长，而是把审美判断、任务边界、工作流和质量检查沉淀成可复用的协作方式。
+云青漫画 Skill 最早受到 Ian 的 [helloianneo/ian-xiaohei-illustrations](https://github.com/helloianneo/ian-xiaohei-illustrations) 启发。这个「中文小黑怪诞正文配图生成 Skill」曾冲到 GitHub 周榜第 2，让我意识到，一个好 Skill 不只是把 prompt 写长，而是把审美判断、任务边界、工作流和质量检查沉淀成可复用的协作方式。
 
 在这个基础上，云青漫画做了自己的延展，加入了小云朵和小瓶子的原创角色分工、中文文章正文插图场景、低科技物理隐喻生成法，以及面向「可爱但有解释力」的 QA 规则。
 
-特别感谢小黑 skills 带来的启发。云青漫画不会复刻小黑 IP、黑豆角色或参考构图，也请使用者尊重原创边界。
+特别感谢 Ian 和小黑配图 Skill 带来的启发。云青漫画不会复刻小黑 IP、黑豆角色或参考构图，也请使用者尊重原创边界。
