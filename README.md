@@ -9,7 +9,7 @@ Hermes Agent 的开源技能包。每个 skill 都是一个独立的 SKILL.md + 
 | [aihot](skills/aihot/) | AI HOT 中文 AI 资讯查询。调用 aihot.virxact.com 公开 API，获取每日 AI 日报、精选动态、模型发布、产品更新等。无需 API Key。 | 媒体 |
 | [diary-manager](skills/diary-manager/) | 日记管理技能。随手记碎片，自动提炼、记账、同步多主线 tracker（花销/学习/生活/文化/亲密关系/待办）。支持 Tracker 交叉检查、周/月总结、月度成长剖析（乔哈里视窗）、语音转文字处理、饮食卡路里估算、健康数据集成。v3.2。 | 效率 |
 | [supply-chain-ai-research](skills/supply-chain-ai-research/) | 供应链 AI 行业深度研究框架。基于横纵分析法，支持多源数据交叉验证、周报自动生成。 | 领域 |
-| [yunqing-comics](skills/yunqing-comics/) | 云青漫画中文正文插图技能。用小云朵和小瓶子把文章观点、流程、结构和隐喻画成温暖手绘漫画配图。感谢 Ian 小黑配图 Skill 的启发。 | 创意 |
+| [yunqing-comics](skills/yunqing-comics/) | 云青漫画中文正文插图技能。用小云朵和小瓶子把文章观点、流程、结构和隐喻画成温暖手绘漫画配图。感谢小黑 skills 的启发。 | 创意 |
 
 ## 怎么用
 
